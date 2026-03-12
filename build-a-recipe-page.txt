@@ -1,5 +1,3 @@
-** start of index.html **
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -28,7 +26,5 @@
       <li> Serve and enjoy.</li>
     </ol>
   </body>
+
 </html>
-
-** end of index.html **
-
