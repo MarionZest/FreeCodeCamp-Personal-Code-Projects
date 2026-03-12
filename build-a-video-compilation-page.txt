@@ -1,0 +1,54 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Video Compilation Page</title>
+</head>
+
+<body>
+    <main>    
+        <h1>3 Great Music Videos</h1>
+        <p>A colllection of 3 music songs and videos from Youtube that I enjoy and loved throughout the years</p>
+        <section>
+            <h2>Remains by Aviators</h2>
+            <p>A fallout inspired theme song of Pickman and it tells a tale of a tortured soul who takes the role of the grim reaper of the wasteland.</p>
+            <iframe
+            title="Remains"
+            width="560"
+            height="400"
+            src="https://www.youtube.com/watch?v=aZ1pCyFK_kY&list=RDaZ1pCyFK_kY"
+            >
+            </iframe>
+        </section>
+        <section>
+            <h2>Alone in the Darkness by Siames</h2>
+            <p>A somber song that is catchy, but it tells of traumas against demons and slowly overcoming the demons in the song.</p>
+            <iframe
+            title="Alone in the Darkness"
+            height="400"
+            width="560"
+            src="https://www.youtube.com/watch?v=IaLJbIxQ6hY"
+            >
+            </iframe>
+        </section>
+        <section>
+            <h2>Upside Down by Black Gryphon</h2>
+            <p>The 3rd song of a (currently) trilogy of the Radio Demon, Alastor from the Hazbin Hotel. It retells the life of a young Alastor when he was alive and the leadup to his serial killings.</p>
+            <iframe
+            title="Upside Down"
+            src="https://www.youtube.com/watch?v=sJ0yPYUnLlE&list=RDsJ0yPYUnLlE&start_radio=1"
+            width="560"
+            height="400"
+            >
+            </iframe>
+        </section>
+    </main>
+</body>
+
+</html>
+
+** end of index.html **
+

@@ -1,0 +1,34 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Chicken Katsu Recipe</title>
+  </head>
+  <body>
+    <h1>Chicken Katsu</h1>
+    <p>Chicken katsu is Japanese-style fried chicken and is modular in which it can be used to make tonkatsu by using pork cutlets instead of chicken. Serve with white rice and tonkatsu sauce.</p>
+    <img src="https://www.allrecipes.com/thmb/DentSnTkdARLbRmNLpglepkaagk=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/5816671_ChickenKatsu4x3-e164943b1c804c358f97f1119f75fbe0.jpg" alt="Fully cooked Chicken Katsu dinner">
+    <h2>Ingredients</h2>
+    <ul>
+      <li>4 skinless, boneless chicken breast halves - pounded to ½-inch thickness</li>
+      <li>2 tablespoons all-purpose flour</li>
+      <li>1 large egg, beaten</li>
+      <li>1 cup panko bread crumbs</li>
+      <li>1 cup oil for frying, or as needed</li>
+    </ul>
+    <h2>Instructions</h2>
+    <ol>
+      <li>Gather all ingredients.</li>
+      <li>Season chicken breasts on both sides with salt and pepper.</li>
+      <li> Place flour, beaten egg, and panko crumbs into separate shallow dishes.</li>
+      <li> Coat chicken breasts in flour, shaking off any excess; dip into egg, and then press into panko crumbs until well coated on both sides.</li>
+      <li> Heat oil in a large skillet over medium-high heat. Place chicken in the hot oil, and fry until golden brown, 3 or 4 minutes per side. Transfer to a paper towel-lined plate to drain.</li>
+      <li> Serve and enjoy.</li>
+    </ol>
+  </body>
+</html>
+
+** end of index.html **
+
