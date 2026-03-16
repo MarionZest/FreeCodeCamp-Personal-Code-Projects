@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">HTML Coding Survey</h1>
+    <p id="description">Thank you for taking the HTML Course and taking the time to send feedback to improve our site.</p>
+    <form id="survey-form" name="survey-form">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name-label" id="name-label">Name:</label>
+          <input 
+            id="name" 
+            type="text"
+            name="name" 
+            placeholder="John Doe" 
+            required/>
+        <label for="email-label" id="email-label">Email:</label>
+          <input 
+            id="email" 
+            type="email"
+            name="email"
+            placeholder="person@email.com" 
+            required/>
+       <label for="number-label" id="number-label">Age:</label>
+          <input 
+            id="number" 
+            type="number"
+            name="number" 
+            min="3" 
+            max="100" 
+            placeholder="18" 
+            required/>
+      </fieldset>
+      <fieldset>
+        <legend>Occupation</legend>
+          <select name="dropdown" id="dropdown">
+            <option selected value="current-role">Select Current Occupation</option>
+            <option value="working-part">Working Part-Time</option>
+            <option value="working-full">Working Full-Time</option>
+            <option value="unemployed">Unemployed</option>
+            <option value="student">Student</option>
+            <option value="volunteer">Volunteering</option>
+          </select>
+      </fieldset>
+      <fieldset>
+        <legend>Did you enjoy working on this course?</legend>
+        <input 
+          type="radio" 
+          name="course-enjoyment" 
+          id="yes-option" 
+          value="yes" />
+        <Label for="yes-option" id="yes-option">Yes</label>
+        <input 
+          type="radio" 
+          name="course-enjoyment" 
+          id="no-option"
+          value="no" />
+        <label for="no-option" id="no-option">No</label>
+      </fieldset>
+      <fieldset>
+        <legend>What would you like to see improved upon? (Check all that apply)</legend>
+        <input 
+          type="checkbox" 
+          id-"improvements-text" 
+          name-"choice" 
+          value="improvements-text" />
+        <label for="improvements-text">Text improvements in courses</label>
+        <input 
+          type="checkbox" 
+          id-"load-speed" 
+          name-"choice" 
+          value="load-speed" />
+        <label for="load-speed">Website load speed</label>
+        <input 
+          type="checkbox" 
+          id-"customer-service" 
+          name-"choice" 
+          value="customer-service" />
+        <label for="customer-service">Customer Service</label>
+        <input 
+          type="checkbox" 
+          id-"couse-variety" 
+          name-"choice" 
+          value="course-variety" />
+        <label for="course-variety">Course variety</label>
+        <input 
+          type="checkbox" 
+          id-"clarity"
+          name-"choice" 
+          value="clarity" />
+        <label for="clarity">Course clarity</label>
+        <input 
+          type="checkbox" 
+          id-"other" 
+          name-"other" 
+          value="other" />
+        <label for="other">Other, please enter in the field below</label>
+        <textarea min="20" max="45" placeholder="Enter Text:">
+        </textarea>
+      </fieldset>
+      <textarea placeholder="Any Questions?">
+      </textarea>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </body>
+</html>
