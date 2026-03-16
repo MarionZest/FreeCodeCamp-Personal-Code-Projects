@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Catalog</title>
+</head>
+
+<body>
+  <table>
+    <caption>Book Catalogue</caption>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Genre</th>
+        <th>Publication Year</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Pride and Prejudice</td>
+        <td>Jane Austin</td>
+        <td>Romance</td>
+        <td>1813</td>
+      </tr>
+      <tr>
+        <td>The Rainbow Fish</td>
+        <td>Marcus Pfister</td>
+        <td>Kids Book</td>
+        <td>1992</td>
+      </tr>
+      <tr>
+        <td>The Thirsty Horse of Mongolia</td>
+        <td>Anthony Sansom</td>
+        <td>Young Adult Fantasy</td>
+        <td>2005</td>
+      </tr>
+      <tr>
+        <td>An Ember in the Ashes</td>
+        <td>Sabaa Tahir</td>
+        <td>Young Adult Fantasy</td>
+        <td>2015</td>
+      </tr>
+      <tr>
+        <td>His Needs, Her Needs</td>
+        <td>Willard F. Harley, Jr.</td>
+        <td>Christian Living</td>
+        <td>1986</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="4">Total Books: 5</td>                
+      </tr>
+    </tfoot>
+  </table>
+</body>
+
+</html>
